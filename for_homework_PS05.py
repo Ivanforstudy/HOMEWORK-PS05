@@ -27,4 +27,4 @@ class LightingSpider(scrapy.Spider):
             'price': price,
             'link': link
         }
-
+# Запуск: scrapy crawl lighting -o lighting_sources.json
